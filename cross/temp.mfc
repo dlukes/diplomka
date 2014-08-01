@@ -1,0 +1,51 @@
+"ooTextFile"
+"ExperimentMFC 6"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory ""
+file extension of stimuli ".wav"
+carrier phrase "desenzitacni_stereo" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+16 different stimuli, set up as XAB
+    "02-vstávala-X-X_,count_02-vstávala-X-X_,melmanip_02-vstávala-X-X_" ""
+    "02-vstávala-X-X_,melmanip_02-vstávala-X-X_,count_02-vstávala-X-X_" ""
+    "05-X-spáchána-X_,count_05-X-spáchána-X_,melmanip_05-X-spáchána-X_" ""
+    "05-X-spáchána-X_,melmanip_05-X-spáchána-X_,count_05-X-spáchána-X_" ""
+    "18-X-X-začal,count_18-X-X-začal,rytmanip_18-X-X-začal" ""
+    "18-X-X-začal,rytmanip_18-X-X-začal,count_18-X-X-začal" ""
+    "17-X-X-malá_,count_17-X-X-malá_,melmanip_17-X-X-malá_" ""
+    "17-X-X-malá_,melmanip_17-X-X-malá_,count_17-X-X-malá_" ""
+    "15-X-kavárna-X,count_15-X-kavárna-X,rytmanip_15-X-kavárna-X" ""
+    "15-X-kavárna-X,rytmanip_15-X-kavárna-X,count_15-X-kavárna-X" ""
+    "01-párátka-X-X_,count_01-párátka-X-X_,rytmanip_01-párátka-X-X_" ""
+    "01-párátka-X-X_,rytmanip_01-párátka-X-X_,count_01-párátka-X-X_" ""
+    "12-kanada-X-X,count_12-kanada-X-X,melmanip_12-kanada-X-X" ""
+    "12-kanada-X-X,melmanip_12-kanada-X-X,count_12-kanada-X-X" ""
+    "04-X-závada-X,count_04-X-závada-X,rytmanip_04-X-závada-X" ""
+    "04-X-závada-X,rytmanip_04-X-závada-X,count_04-X-závada-X" ""
+1 replications per stimulus
+break after every 18 stimuli
+<PermuteBalancedNoDoublets>
+"Kliknutím spustíte test."
+"První zvuk je podobnější:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím spustíte další část testu."
+"Konec percepčního testu.
+Zavolejte prosím experimentátora.
+Děkujeme za účast!"
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0.40 0.60 0.10 0.20 "Spletl/a jsem se" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "---" 30 "" ""
+    0.4 0.6 0.4 0.6 "druhému" 30 "" "A"
+    0.7 0.9 0.4 0.6 "třetímu" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+

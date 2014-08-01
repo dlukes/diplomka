@@ -1,0 +1,32 @@
+#+TITLE:
+#+OPTIONS: ^:nil author:nil tags:nil toc:nil
+
+V percepčním testu je vaším úkolem poslechnout si sérii položek o třech zvucích
+a u každé odpovědět na otázku, která s k těmto třem zvukům vztahuje. Mezi zvuky
+v rámci položky je krátké ticho a mezi jednotlivými položkami se ozve krátký
+desenzitační zvuk.
+
+Test je rozdělený na tři oddíly, v jejichž rámci je otázka/úloha pro každou
+položku po celou dobu stejná. Na začátku každého oddílu je příslušná úloha
+popsána a následují dvě zácvičné položky, které vám pomohou si na ni zvyknout.
+
+U každé položky je po označení odpovědi potřeba ohodnotit stupeň jistoty, s
+jakým jste odpověď vybrali. Na výběr jsou tři možnosti: 'jsem si naprosto
+jistý/á', 'jsem si celkem jistý/á' a 'spíš hádám'. Kdykoli si nejste svou
+odpovědí jisti, nebojte se to uvést: výsledky testu tím neznehodnotíte, naopak
+jejich vyhodnocení napomůžete.
+
+Pokud si uvědomíte, že jste se při volbě odpovědi na otázku spletli, ohodnoťte
+prosím stupeň jistoty jako 'spíš hádám'.
+
+U každé položky lze poslech jednou opakovat pomocí tlačítka pro opakovaný
+poslech.
+
+Pokud nemáte dotazy, zavolejte prosím experimentátora a můžeme se pustit do
+testu!
+
+# Od druhé položky dále se též objeví tlačítko 'Spletl/a jsem se', které můžete
+# využít, pokud se při zadávání odpovědí překliknete: po jeho stisknutí se test
+# vrátí k předcházející položce a umožní vám odpověď na ni zadat znovu.
+
+[[./screenshot.png]]

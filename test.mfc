@@ -1,0 +1,299 @@
+"ooTextFile"
+"Collection" 6
+
+IIIIIIIIIIIIIIIIIIII SPEECH_ZACVIK IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "sp_zacvik"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./zacvik/speech/"
+file extension of stimuli ".wav"
+carrier phrase "../../desenzitacni" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+2 different stimuli, set up as AXB
+    "07-X-X-láká_,07-X-X-láká_,30_07-X-X-láká_-0.7" ""
+    "up_4_ST_09-X-X-známá,09-X-X-známá,09-X-X-známá" ""
+1 replication per stimulus
+break after every 2 stimuli
+<CyclicNonRandom>
+"ČÁST 1/3
+
+V každé položce uslyšíte tři opakování jedné věty, oddělená krátkou
+pauzou. První a poslední realizace budou vždy zvukově různé, zatímco prostřední
+se bude s jednou z nich shodovat. Vaším úkolem je rozhodnout, zda je PROSTŘEDNÍ
+věta STEJNÁ jako PRVNÍ, nebo jako POSLEDNÍ.
+
+Kliknutím nyní spustíte krátký zácvik, v němž bude výše popsaný formát testu
+demonstrován na dvou nehodnocených příkladech."
+"Prostřední zvuk je stejný jako:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec zácviku. Pokud máte nějaké dotazy k pokynům, zavolejte prosím
+experimentátora. Pokud ne, kliknutím ukončíte zácvik."
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "první" 30 "" "A"
+    0.4 0.6 0.4 0.6 "---" 30 "" ""
+    0.7 0.9 0.4 0.6 "poslední" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
+IIIIIIIIIIIIIIIIIIII SPEECH_TEST  IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "sp_test"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./speech/"
+file extension of stimuli ".wav"
+carrier phrase "../desenzitacni" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+20 different stimuli, set up as AXB
+    "13-X-armáda-X_,13-X-armáda-X_,100_13-X-armáda-X_-2" ""
+    "100_13-X-armáda-X_-2,13-X-armáda-X_,13-X-armáda-X_" ""
+    "16-X-X-radar,16-X-X-radar,up_3_ST_16-X-X-radar" ""
+    "up_3_ST_16-X-X-radar,16-X-X-radar,16-X-X-radar" ""
+    "14-X-rajčata-X_,14-X-rajčata-X_,40_14-X-rajčata-X_-1.4" ""
+    "40_14-X-rajčata-X_-1.4,14-X-rajčata-X_,14-X-rajčata-X_" ""
+    "14-X-rajčata-X_,14-X-rajčata-X_,up_3_ST_14-X-rajčata-X_" ""
+    "up_3_ST_14-X-rajčata-X_,14-X-rajčata-X_,14-X-rajčata-X_" ""
+    "09-X-X-známá,09-X-X-známá,20_09-X-X-známá-0.8" ""
+    "20_09-X-X-známá-0.8,09-X-X-známá,09-X-X-známá" ""
+    "10-začala-X-X,10-začala-X-X,40_10-začala-X-X-1.4" ""
+    "40_10-začala-X-X-1.4,10-začala-X-X,10-začala-X-X" ""
+    "06-X-mláďata-X,06-X-mláďata-X,30_06-X-mláďata-X-0.7" ""
+    "30_06-X-mláďata-X-0.7,06-X-mláďata-X,06-X-mláďata-X" ""
+    "06-X-mláďata-X,06-X-mláďata-X,down_4_ST_06-X-mláďata-X" ""
+    "down_4_ST_06-X-mláďata-X,06-X-mláďata-X,06-X-mláďata-X" ""
+    "03-mávátka-X-X,03-mávátka-X-X,down_4_ST_03-mávátka-X-X" ""
+    "down_4_ST_03-mávátka-X-X,03-mávátka-X-X,03-mávátka-X-X" ""
+    "08-X-X-vláda_,08-X-X-vláda_,down_3_ST_08-X-X-vláda_" ""
+    "down_3_ST_08-X-X-vláda_,08-X-X-vláda_,08-X-X-vláda_" ""
+2 replications per stimulus
+break after every 20 stimuli
+<PermuteBalancedNoDoublets>
+before test "Až budete připraveni, kliknutím spusťte test."
+"Prostřední zvuk je stejný jako:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec části 1/3.
+Kliknutím spustíte další část testu."
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "první" 30 "" "A"
+    0.4 0.6 0.4 0.6 "---" 30 "" ""
+    0.7 0.9 0.4 0.6 "poslední" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
+IIIIIIIIIIIIIIIIIIII MUSIC_ZACVIK IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "mu_zacvik"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./zacvik/music/"
+file extension of stimuli ".wav"
+carrier phrase "../../desenzitacni_stereo" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+2 different stimuli, set up as AXB
+    "02_m1_comp_C_dorian,02_m1_comp_C_dorian,up_4_ST_02_m1_comp_C_dorian" ""
+    "0_33_shorter_04_m1_comp_B_lower_lydian,04_m1_comp_B_lower_lydian,04_m1_comp_B_lower_lydian" ""
+1 replication per stimulus
+break after every 2 stimuli
+<CyclicNonRandom>
+"ČÁST 2/3
+
+V každé položce uslyšíte tři hudební motivy oddělené krátkou pauzou. První a
+poslední motiv se vždy budou v nějakém detailu lišit, zatímco prostřední se
+bude s jedním z nich shodovat. Vaším úkolem je rozhodnout, zda je PROSTŘEDNÍ
+motiv STEJNÝ jako PRVNÍ, nebo jako POSLEDNÍ.
+
+Kliknutím nyní spustíte krátký zácvik, v němž bude výše popsaný formát testu
+demonstrován na dvou nehodnocených příkladech."
+"Prostřední zvuk je stejný jako:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec zácviku. Pokud máte nějaké dotazy k pokynům, zavolejte prosím
+experimentátora. Pokud ne, kliknutím ukončíte zácvik."
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "první" 30 "" "A"
+    0.4 0.6 0.4 0.6 "---" 30 "" ""
+    0.7 0.9 0.4 0.6 "poslední" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
+IIIIIIIIIIIIIIIIIIII MUSIC_TEST IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "mu_test"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./music/"
+file extension of stimuli ".wav"
+carrier phrase "../desenzitacni_stereo" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+20 different stimuli, set up as AXB
+    "12_m2_comp_B_lower_locrian,12_m2_comp_B_lower_locrian,0_50_longer_12_m2_comp_B_lower_locrian" ""
+    "0_50_longer_12_m2_comp_B_lower_locrian,12_m2_comp_B_lower_locrian,12_m2_comp_B_lower_locrian" ""
+    "08_m2_comp_D_dorian,08_m2_comp_D_dorian,up_3_ST_08_m2_comp_D_dorian" ""
+    "up_3_ST_08_m2_comp_D_dorian,08_m2_comp_D_dorian,08_m2_comp_D_dorian" ""
+    "18_m3_comp_C_locrian,18_m3_comp_C_locrian,up_2_ST_18_m3_comp_C_locrian" ""
+    "up_2_ST_18_m3_comp_C_locrian,18_m3_comp_C_locrian,18_m3_comp_C_locrian" ""
+    "10_m2_comp_C_lydian,10_m2_comp_C_lydian,0_33_shorter_10_m2_comp_C_lydian" ""
+    "0_33_shorter_10_m2_comp_C_lydian,10_m2_comp_C_lydian,10_m2_comp_C_lydian" ""
+    "10_m2_comp_C_lydian,10_m2_comp_C_lydian,down_3_ST_10_m2_comp_C_lydian" ""
+    "down_3_ST_10_m2_comp_C_lydian,10_m2_comp_C_lydian,10_m2_comp_C_lydian" ""
+    "13_m3_comp_D_ionian,13_m3_comp_D_ionian,down_1_ST_13_m3_comp_D_ionian" ""
+    "down_1_ST_13_m3_comp_D_ionian,13_m3_comp_D_ionian,13_m3_comp_D_ionian" ""
+    "13_m3_comp_D_ionian,13_m3_comp_D_ionian,0_25_shorter_13_m3_comp_D_ionian" ""
+    "0_25_shorter_13_m3_comp_D_ionian,13_m3_comp_D_ionian,13_m3_comp_D_ionian" ""
+    "02_m1_comp_C_dorian,02_m1_comp_C_dorian,0_33_longer_02_m1_comp_C_dorian" ""
+    "0_33_longer_02_m1_comp_C_dorian,02_m1_comp_C_dorian,02_m1_comp_C_dorian" ""
+    "01_m1_comp_B_lower_ionian,01_m1_comp_B_lower_ionian,up_1_ST_01_m1_comp_B_lower_ionian" ""
+    "up_1_ST_01_m1_comp_B_lower_ionian,01_m1_comp_B_lower_ionian,01_m1_comp_B_lower_ionian" ""
+    "06_m1_comp_D_locrian,06_m1_comp_D_locrian,0_17_shorter_06_m1_comp_D_locrian" ""
+    "0_17_shorter_06_m1_comp_D_locrian,06_m1_comp_D_locrian,06_m1_comp_D_locrian" ""
+2 replications per stimulus
+break after every 20 stimuli
+<PermuteBalancedNoDoublets>
+before test "Až budete připraveni, kliknutím spusťte test."
+"Prostřední zvuk je stejný jako:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec části 2/3.
+Kliknutím spustíte další část testu."
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "první" 30 "" "A"
+    0.4 0.6 0.4 0.6 "---" 30 "" ""
+    0.7 0.9 0.4 0.6 "poslední" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
+IIIIIIIIIIIIIIIIIIII CROSS_ZACVIK IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "cr_zacvik"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./zacvik/cross/"
+file extension of stimuli ".wav"
+carrier phrase "../../desenzitacni_stereo" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+2 different stimuli, set up as XAB
+    "07-X-X-láká_,count_07-X-X-láká_,rytmanip_07-X-X-láká_" ""
+    "07-X-X-láká_,melmanip_07-X-X-láká_,count_07-X-X-láká_" ""
+1 replication per stimulus
+break after every 2 stimuli
+<CyclicNonRandom>
+"ČÁST 3/3
+
+POZOR, FORMÁT POLOŽEK V TÉTO POSLEDNÍ
+ČÁSTI TESTU SE OD PŘEDCHOZÍCH DVOU ČÁSTÍ
+PONĚKUD LIŠÍ!
+
+V každé položce uslyšíte krátkou větu a za ní dvě melodie. Označte prosím,
+která z obou MELODIÍ se vám zdá VĚTĚ ZVUKOVĚ BLIŽŠÍ, která k ní lépe 'sedí' --
+zda PRVNÍ, nebo DRUHÁ. Nejde o význam (tj. melodie se nesnaží 'vyjádřit' obsah
+vět), čistě o zvukovou podobnost: představte si, že se nástroj snaží napodobit
+mluvčího a vy máte rozhodnout, který z hudebních úryvků je původní zvukové
+podobě věty věrnější.
+
+Kliknutím nyní spustíte krátký zácvik, v němž bude výše popsaný formát testu
+demonstrován na dvou nehodnocených příkladech."
+"Větě je zvukově bližší:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec zácviku. Pokud máte nějaké dotazy k pokynům, zavolejte prosím
+experimentátora. Pokud ne, kliknutím ukončíte zácvik."
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "---" 30 "" ""
+    0.4 0.6 0.4 0.6 "1. melodie" 30 "" "A"
+    0.7 0.9 0.4 0.6 "2. melodie" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
+IIIIIIIIIIIIIIIIIIII CROSS_TEST IIIIIIIIIIIIIIIIIIII
+"ExperimentMFC 6" "cr_test"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory "./cross/"
+file extension of stimuli ".wav"
+carrier phrase "../desenzitacni_stereo" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+16 different stimuli, set up as XAB
+    "02-vstávala-X-X_,count_02-vstávala-X-X_,melmanip_02-vstávala-X-X_" ""
+    "02-vstávala-X-X_,melmanip_02-vstávala-X-X_,count_02-vstávala-X-X_" ""
+    "05-X-spáchána-X_,count_05-X-spáchána-X_,melmanip_05-X-spáchána-X_" ""
+    "05-X-spáchána-X_,melmanip_05-X-spáchána-X_,count_05-X-spáchána-X_" ""
+    "18-X-X-začal,count_18-X-X-začal,rytmanip_18-X-X-začal" ""
+    "18-X-X-začal,rytmanip_18-X-X-začal,count_18-X-X-začal" ""
+    "17-X-X-malá_,count_17-X-X-malá_,melmanip_17-X-X-malá_" ""
+    "17-X-X-malá_,melmanip_17-X-X-malá_,count_17-X-X-malá_" ""
+    "15-X-kavárna-X,count_15-X-kavárna-X,rytmanip_15-X-kavárna-X" ""
+    "15-X-kavárna-X,rytmanip_15-X-kavárna-X,count_15-X-kavárna-X" ""
+    "01-párátka-X-X_,count_01-párátka-X-X_,rytmanip_01-párátka-X-X_" ""
+    "01-párátka-X-X_,rytmanip_01-párátka-X-X_,count_01-párátka-X-X_" ""
+    "12-kanada-X-X,count_12-kanada-X-X,melmanip_12-kanada-X-X" ""
+    "12-kanada-X-X,melmanip_12-kanada-X-X,count_12-kanada-X-X" ""
+    "04-X-závada-X,count_04-X-závada-X,rytmanip_04-X-závada-X" ""
+    "04-X-závada-X,rytmanip_04-X-závada-X,count_04-X-závada-X" ""
+2 replications per stimulus
+break after every 16 stimuli
+<PermuteBalancedNoDoublets>
+before test "Až budete připraveni, kliknutím spusťte test."
+"Větě je zvukově bližší:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím můžete pokračovat."
+"Konec percepčního testu.
+Zavolejte prosím experimentátora.
+Děkujeme za účast!"
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0 0 0 0 "" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "---" 30 "" ""
+    0.4 0.6 0.4 0.6 "1. melodie" 30 "" "A"
+    0.7 0.9 0.4 0.6 "2. melodie" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"

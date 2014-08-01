@@ -1,0 +1,39 @@
+"ooTextFile"
+"ExperimentMFC 6"
+blank while playing? <no>
+stimuli are sounds? <yes>
+stimuli in directory ""
+file extension of stimuli ".wav"
+carrier phrase "desenzitacni" ""
+time of silence after subject's mouse click 0.5 seconds
+inter-stimulus interval 0.3 seconds
+final silence duration 0 seconds
+4 different stimuli, set up as AXB
+    "02_m1_comp_C_dorian,02_m1_comp_C_dorian,up_4_ST_02_m1_comp_C_dorian" ""
+    "up_4_ST_02_m1_comp_C_dorian,02_m1_comp_C_dorian,02_m1_comp_C_dorian" ""
+    "04_m1_comp_B_lower_lydian,04_m1_comp_B_lower_lydian,0_33_shorter_04_m1_comp_B_lower_lydian" ""
+    "0_33_shorter_04_m1_comp_B_lower_lydian,04_m1_comp_B_lower_lydian,04_m1_comp_B_lower_lydian" ""
+3 replications per stimulus
+break after every 50 stimuli
+<PermuteBalancedNoDoublets>
+"Kliknutím spustíte test."
+"Prostřední zvuk je stejný jako:"
+"Pokud chcete, můžete si nyní udělat krátkou pauzu.
+Kliknutím spustíte další část testu."
+"Konec percepčního testu.
+Zavolejte prosím experimentátora.
+Děkujeme za účast!"
+max 1 replay allowed
+replay button 0.1 0.9 0.01 0.07 "Klikněte sem či stiskněte mezerník pro opakovaný poslech." " "
+ok button 0 0 0 0 "" ""
+oops button 0.40 0.60 0.10 0.20 "Spletl/a jsem se" ""
+responses are sounds? <no> "" "" "" "" 0 0 0
+3 response categories
+    0.1 0.3 0.4 0.6 "první" 30 "" "A"
+    0.4 0.6 0.4 0.6 "---" 30 "" ""
+    0.7 0.9 0.4 0.6 "poslední" 30 "" "B"
+3 goodness categories
+    0.01 0.33 0.25 0.35 "jsem si naprosto jistý/á"
+    0.34 0.66 0.25 0.35 "jsem si celkem jistý/á"
+    0.67 0.99 0.25 0.35 "spíš hádám"
+
