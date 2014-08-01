@@ -26,3 +26,12 @@ The results I collected for my thesis are available in anonymized form in the
 around with them (e.g. in `R` or some other stat software) but can't figure out
 the format, drop me a line on github and I'll try to provide some basic
 orientation :)
+
+## Credits
+
+The music stimuli were created with the help of the
+[leipzig](https://github.com/ctford/leipzig) Clojure library by ctford,
+converted to midi using the Python
+[MIDIUtil](https://code.google.com/p/midiutil/) library and rendered into WAV
+files using [TiMidity++](http://timidity.sourceforge.net/) and the
+`FluidR3_GM.sf2` soundfont.
